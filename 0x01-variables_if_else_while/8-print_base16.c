@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints all the numbers of base in lower case.
+ * main - prints all the numbers of base in lowercase,
  * followed by a new line
  * Return: Always 0 (Success)
  */
@@ -13,11 +13,11 @@ int main(void)
 	for (letter = 'a'; letter <= 'f'; letter++)
 		putchar(letter);
 
-	for (num = '0'; num < '10'; num++)
-		putchar((num);
+	for (num = 0; num < 10; num++)
+		putchar((num));
 		
 	
 	putchar('\n');
 
-	return (0);
+	return (0) ;
 }
