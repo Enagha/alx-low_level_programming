@@ -4,7 +4,6 @@
 /**
  * _atoi - converts a string to an integer
  * @s: string to be converted
- *
  * Return: the int converted from the string
  */
 int _atoi(char *s)
@@ -16,8 +15,8 @@ int _atoi(char *s)
 	n = 0;
 	len = 0;
 	f = 0;
-	digit = 0;
-	
+	digit = 0
+
 	while (s[len] != '\0')
 		len++;
 
@@ -39,14 +38,12 @@ int _atoi(char *s)
 		}
 		i++;
 	}
-	
+
 	if (f == 0)
 		return (0);
-	
+
 	return (n);
-
 }
-
 /**
  * main - multiplies two numbers
  * @argc: number of arguments
