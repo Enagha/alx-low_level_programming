@@ -1,1 +1,1 @@
-Static Library Exercise
+TStatic Library Task
