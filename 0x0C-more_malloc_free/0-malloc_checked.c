@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
+#include <limits.h>
 
 /**
  * a function that allocates memory using malloc
@@ -11,7 +12,7 @@ void *malloc_checked(unsigned int b)
 {
 	void *ptr;
 
-	ptr = malloc (b)
+	ptr = malloc(b)
 	if (ptr == NULL)
 		exit(98);
 	
