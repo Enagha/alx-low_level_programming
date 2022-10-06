@@ -6,7 +6,7 @@
 /**
  * a function that allocates memory using malloc
  * @b: integer variable dat holds the memory size
- * Return: 0 program was successful
+ * Return: a pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b)
 {
