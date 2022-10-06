@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include main.h
+#include "main.h"
 
 /**
  * a function that allocates memory using malloc
