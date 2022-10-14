@@ -1,6 +1,5 @@
 #include "function_pointers.h"
-#include <stdio.h>
-#include <stddef.h>
+
 /**
  * int_index - earches for an integer
  * @array: array to search in
@@ -23,7 +22,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 				return (i);
 		}
 	}
-
 
 	return (-1);
 }
