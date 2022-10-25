@@ -9,11 +9,11 @@
 *Return:numberofnodes
 */
 
-size_tprint_listint(const listint_t*h)
+size_t print_listint(const listint_t*h)
 
 {
 
-size_tnodenum=0;
+size_t nodenum=0;
 
 
 
@@ -25,9 +25,9 @@ size_tnodenum=0;
 
 		nodenum++;	
 
-		h=h->next;
+		h = h->next;
 
 	}	
 
-	return(nodenum);
+	return (nodenum);
 }
