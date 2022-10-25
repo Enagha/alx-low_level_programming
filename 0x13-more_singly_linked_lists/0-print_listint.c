@@ -9,7 +9,7 @@
 *Return:numberofnodes
 */
 
-size_tprint_listint(constlistint_t*h)
+size_tprint_listint(const listint_t*h)
 
 {
 
