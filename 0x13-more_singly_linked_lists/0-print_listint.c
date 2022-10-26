@@ -1,10 +1,11 @@
 #include "lists.h"
+
 /**
-*print_listint-printsalltheelementsofalinkedlist
-*@h:pointertothe1stnodeofthelinkedlist
-*
-*Return:numberofnodes
-*/
+ *print_listint-printsalltheelementsofalinkedlist
+ *@h:pointertothe1stnodeofthelinkedlist
+ *
+ *Return:numberofnodes
+ */
 
 size_t print_listint(const listint_t *h)
 {
