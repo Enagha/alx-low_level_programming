@@ -1,8 +1,8 @@
-#include"lists.h"
+#include "lists.h"
 /**
 *print_listint-printsalltheelementsofalinkedlist
 *@h:pointertothe1stnodeofthelinkedlist
-
+*
 *Return:numberofnodes
 */
 
